@@ -1,5 +1,5 @@
 # MMPDIM-DTA
-
+```
 conda create -n MMPDIM_DTA python=3.8
 conda activate MMPDIM_DTA
 pip install torch-1.9.0+cu111-cp38-cp38-linux_x86_64.whl  or conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.9.0 cudatoolkit=11.3 -c pytorch -c conda-forge
@@ -16,3 +16,4 @@ pip install numpy==1.23.5
 pip install numba==0.58.1
 pip install tensorboard==2.14.0
 setuptools==58.0.0
+```
