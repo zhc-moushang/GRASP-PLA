@@ -17,3 +17,4 @@ pip install numba==0.58.1
 pip install tensorboard==2.14.0
 setuptools==58.0.0
 ```
+https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing
