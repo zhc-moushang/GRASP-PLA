@@ -29,4 +29,5 @@ The data set needed to replicate the implementation in the paper is available fr
 We provide scripts for [train_kFold.py](train_kFold.py) and [test_kFold.py](test_kFold.py).
 
 ## Acknowledegments
-We appreciate [LGI-GT](https://github.com/shuoyinn/LGI-GT), [Gradformer](https://github.com/LiuChuang0059/Gradformer), [AttentionMGT-DTA](https://github.com/JK-Liu7/AttentionMGT-DTA), [esm](https://github.com/facebookresearch/esm)    and other related works for their open-sourced contributions.
+We appreciate [LGI-GT](https://github.com/shuoyinn/LGI-GT), [Gradformer](https://github.com/LiuChuang0059/Gradformer), [AttentionMGT-DTA](https://github.com/JK-Liu7/AttentionMGT-DTA), [esm](https://github.com/facebookresearch/esm) and other related works for their open-sourced contributions.
+## Citations
