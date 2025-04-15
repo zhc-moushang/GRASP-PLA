@@ -4,7 +4,10 @@ We provide commands for creating conda environments so you can replicate our wor
 ```
 conda create -n MMPDIM_DTA python=3.8
 conda activate MMPDIM_DTA
-pip install torch-1.9.0+cu111-cp38-cp38-linux_x86_64.whl  or conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.9.0 cudatoolkit=11.3 -c pytorch -c conda-forge
+pip install torch-1.9.0+cu111-cp38-cp38-linux_x86_64.whl
+or
+conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.9.0 cudatoolkit=11.3 -c pytorch -c conda-forge
+
 pip install torch_cluster-1.5.9-cp38-cp38-linux_x86_64.whl
 pip install torch_scatter-2.0.8-cp38-cp38-linux_x86_64.whl
 pip install torch_sparse-0.6.11-cp38-cp38-linux_x86_64.whl
