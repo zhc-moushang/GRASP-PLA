@@ -24,7 +24,7 @@ pip install setuptools==58.0.0
 ```
 The .whl files required for the offline installation of torch, torch_cluster, torch_scatter, and torch_sparse are provided via [Google Drive](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing) or [pyg](https://pytorch-geometric.com/whl/).
 ## 2. Dataset
-The data set needed to replicate the implementation in the paper is available from [Google Drive](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing). (test2016.pt,test2013.pt,CSAR.pt)
+The data set needed to replicate the implementation in the paper is available from [Google Drive](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing). (test2016.pt, test2013.pt, CSAR.pt)
 ## 3. Train and Test
 We provide scripts for [train_kFold.py](train_kFold.py) and [test_kFold.py](test_kFold.py).
 
