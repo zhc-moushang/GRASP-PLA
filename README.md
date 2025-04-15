@@ -19,10 +19,11 @@ pip install numba==0.58.1
 pip install tensorboard==2.14.0
 pip install setuptools==58.0.0
 ```
-The .whl files required for the offline installation of torch, torch_cluster, torch_scatter, and torch_sparse are provided via [Google Drive](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing).
+The .whl files required for the offline installation of torch, torch_cluster, torch_scatter, and torch_sparse are provided via [Google Drive](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing) or [pyg](https://pytorch-geometric.com/whl/).
 ## 2. Dataset
-The data set needed to replicate the implementation in the paper is available from [Google Drive](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing).
+The data set needed to replicate the implementation in the paper is available from [Google Drive](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing). (test2016.pt,test2013.pt,CSAR.pt)
 ## 3. Train and Test
-We provide scripts for [training](train_kFold.py) and [testing](test_kFold.py).
+We provide scripts for [train_kFold.py](train_kFold.py) and [test_kFold.py](test_kFold.py).
 
 ## Acknowledegments
+We appreciate [LGI-GT](https://github.com/shuoyinn/LGI-GT), [Gradformer](https://github.com/LiuChuang0059/Gradformer), [AttentionMGT-DTA](https://github.com/JK-Liu7/AttentionMGT-DTA), [esm](https://github.com/facebookresearch/esm)    and other related works for their open-sourced contributions.
