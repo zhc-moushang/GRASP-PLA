@@ -1,5 +1,10 @@
 # MMPDIM-DTA
-## 1. Conda environment
+
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/zhc-moushang/MMPDIM-DTA/main/Fig/model.jpg" width="600">
+  </div>
+  
+## 1. Conda Environment
 We provide commands for creating conda environments so you can replicate our work:
 ```
 conda create -n MMPDIM_DTA python=3.8
@@ -22,13 +27,40 @@ pip install numba==0.58.1
 pip install tensorboard==2.14.0
 pip install setuptools==58.0.0
 ```
-The .whl files required for the offline installation of torch, torch_cluster, torch_scatter, and torch_sparse are provided via [Google Drive](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing) or [pyg](https://pytorch-geometric.com/whl/).
-## 2. Dataset
-The data set needed to replicate the implementation in the paper is available from [Google Drive](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing). (test2016.pt, test2013.pt, CSAR.pt)
-## 3. Train and Test
-We provide scripts for [train_kFold.py](train_kFold.py) and [test_kFold.py](test_kFold.py).
+The `.whl` files for offline installation of `torch`, `torch_cluster`, `torch_scatter`, and `torch_sparse` are available via:
 
-## Acknowledegments
-We appreciate [LGI-GT](https://github.com/shuoyinn/LGI-GT), [Gradformer](https://github.com/LiuChuang0059/Gradformer), [AttentionMGT-DTA](https://github.com/JK-Liu7/AttentionMGT-DTA), [esm](https://github.com/facebookresearch/esm) and other related works for their open-sourced contributions.
+- [**Google Drive 🔗**](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing)
+- [**PyTorch Geometric WHL page**](https://pytorch-geometric.com/whl/)
+## 2. Dataset
+
+The datasets required to replicate our experiments can be downloaded from:
+
+- [**Google Drive 📁**](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing)
+
+**Included files:**
+
+- `test2016.pt`
+- `test2013.pt`
+- `CSAR.pt`
+- `sph_zong.pt`
+- `affinity_data.csv`
+- `test2016.tar.xz` — contains protein `.pdb` files and drug `.mol2` files for the **test2016** dataset
+- `test2013.tar.xz` — contains protein `.pdb` files and drug `.mol2` files for the **test2013** dataset
+## 3. Train and Test
+
+We provide the following scripts to train and evaluate the model:
+
+- [`train_kFold.py`](train_kFold.py): Training with **k-fold cross-validation**
+- [`test_kFold.py`](test_kFold.py): Testing using **trained models**
+
+## Acknowledgments
+
+We appreciate the open-source contributions of the following projects:
+
+- [**LGI-GT**](https://github.com/shuoyinn/LGI-GT)
+- [**Gradformer**](https://github.com/LiuChuang0059/Gradformer)
+- [**AttentionMGT-DTA**](https://github.com/JK-Liu7/AttentionMGT-DTA)
+- [**ESM (Facebook Research)**](https://github.com/facebookresearch/esm)
 ## Citations
-![image](https://github.com/zhc-moushang/MMPDIM-DTA/blob/main/Fig/model.eps)
+```
+```
