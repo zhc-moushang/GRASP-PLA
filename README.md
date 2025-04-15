@@ -1,4 +1,6 @@
 # MMPDIM-DTA
+## 1. Conda environment
+We provide commands for creating conda environments so you can replicate our work:
 ```
 conda create -n MMPDIM_DTA python=3.8
 conda activate MMPDIM_DTA
@@ -17,4 +19,10 @@ pip install numba==0.58.1
 pip install tensorboard==2.14.0
 pip install setuptools==58.0.0
 ```
-https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing
+The .whl files required for the offline installation of torch, torch_cluster, torch_scatter, and torch_sparse are provided via [Google Drive](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing).
+## 2. Dataset
+The data set needed to replicate the implementation in the paper is available from [Google Drive](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing).
+## 3. Train and Test
+We provide scripts for [training](train_kFold.py) and [testing](test_kFold.py).
+
+## Acknowledegments
