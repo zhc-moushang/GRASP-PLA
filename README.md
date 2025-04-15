@@ -15,6 +15,6 @@ pip install dgllife==0.3.2
 pip install numpy==1.23.5
 pip install numba==0.58.1
 pip install tensorboard==2.14.0
-setuptools==58.0.0
+pip install setuptools==58.0.0
 ```
 https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing
