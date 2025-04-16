@@ -29,7 +29,7 @@ pip install setuptools==58.0.0
 ```
 The `.whl` files for offline installation of `torch`, `torch_cluster`, `torch_scatter`, and `torch_sparse` are available via:
 
-- [**Google Drive 🔗**](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing)
+- [**Google Drive 📁**](https://drive.google.com/drive/folders/1SyVzxgTGPr9dtBRbexzlLA5PMmUuJKPl?usp=sharing)
 - [**PyTorch Geometric WHL page**](https://pytorch-geometric.com/whl/)
 ## 2. Dataset
 
