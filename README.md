@@ -1,4 +1,6 @@
-# GRASP-DTA
+# GRASP-PLA: Dynamic Graph Alignment across Scales for Protein-Ligand Affinity
+
+
 
   <div align="center">
   <img src="https://raw.githubusercontent.com/zhc-moushang/MMPDIM-DTA/main/Fig/model.jpg" width="600">
