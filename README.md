@@ -1,4 +1,4 @@
-# MMPDIM-DTA
+# GRASP-DTA
 
   <div align="center">
   <img src="https://raw.githubusercontent.com/zhc-moushang/MMPDIM-DTA/main/Fig/model.jpg" width="600">
